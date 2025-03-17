@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto</title>
+    <!-- Vincula o arquivo CSS -->
+    <link rel="stylesheet" href="amigo.css">
+    <!-- Vincula o arquivo JavaScript -->
+    <script src="amigo.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Amigo Secreto</h1>
+
+        <!-- Imagem do amigo secreto -->
+        <img src="img/presente.png" alt="Imagem representativa de amigo secreto" class="imagem-amigo">
+
+        <!-- Entrada para adicionar nomes -->
+        <label for="nome">Digite o nome:</label>
+        <input type="text" id="nome" placeholder="Nome do amigo">
+        <button id="btnAdicionar">Adicionar nome</button>
+
+        <!-- Exibe a lista de nomes -->
+        <h2>Lista de Nomes</h2>
+        <ul id="listaNomes"></ul>
+
+        <!-- Botão para sortear -->
+        <button id="btnSortear">Sortear nome</button>
+
+        <!-- Resultado do sorteio -->
+        <p id="resultado"></p>
+    </div>
+</body>
+</html>

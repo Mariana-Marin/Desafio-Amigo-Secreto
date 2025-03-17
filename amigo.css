@@ -1,0 +1,78 @@
+/* Fundo azul degradê */
+/* Alinha o corpo da página como flex */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: #fff;
+    text-align: center;
+    display: flex;             /* Flexbox para centralização */
+    justify-content: center;  /* Alinha horizontalmente no centro */
+    align-items: center;      /* Alinha verticalmente no centro */
+    height: 100vh;            /* Garante que ocupe toda a altura da tela */
+}
+
+.container {
+    max-width: 300px;
+    width: 30%;              /* Garante que o container ocupe 100% da largura disponível até o limite de 300px */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff69b4;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #000;
+}
+
+.imagem-amigo {
+    max-width: 50%;
+    height: auto;
+    margin: 20px auto;
+    display: block; 
+}
+
+p#resultado {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff69b4;
+}
