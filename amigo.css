@@ -1,20 +1,20 @@
-/* Fundo azul degradê */
-/* Alinha o corpo da página como flex */
+/* Fondo azul degradado */
+/* Alinea el cuerpo de la página como flex */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #00c6ff, #0072ff);
     color: #fff;
     text-align: center;
-    display: flex;             /* Flexbox para centralização */
-    justify-content: center;  /* Alinha horizontalmente no centro */
-    align-items: center;      /* Alinha verticalmente no centro */
-    height: 100vh;            /* Garante que ocupe toda a altura da tela */
+    display: flex;             /* Flexbox para centralización */
+    justify-content: center;   /* Alinea horizontalmente al centro */
+    align-items: center;       /* Alinea verticalmente al centro */
+    height: 100vh;            /* Asegura que ocupe toda la altura de la pantalla */
 }
 
 .container {
     max-width: 300px;
-    width: 30%;              /* Garante que o container ocupe 100% da largura disponível até o limite de 300px */
+    width: 30%;              /* Asegura que el contenedor ocupe 100% del ancho disponible hasta el límite de 300px */
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 15px;

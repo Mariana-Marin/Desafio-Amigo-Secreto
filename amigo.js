@@ -1,41 +1,41 @@
-// Array para armazenar os nomes
-let nomes = [];
+// Array para almacenar los nombres
+let names = [];
 
-// Função para adicionar nome à lista
-function adicionarNome() {
-    const nome = document.getElementById("nome").value.trim();
-    if (nome !== "") {
-        nomes.push(nome);
-        atualizarLista();
-        document.getElementById("nome").value = "";  // Limpa o campo de texto
+// Función para añadir nombre a la lista
+function addName() {
+    const name = document.getElementById("nome").value.trim();
+    if (name !== "") {
+        names.push(name);
+        updateList();
+        document.getElementById("nome").value = "";  // Limpia el campo de texto
     } else {
-        alert("Por favor, insira um nome.");
+        alert("Por favor, ingresa un nombre.");
     }
 }
 
-// Função para atualizar a lista exibida no HTML
-function atualizarLista() {
+// Función para actualizar la lista mostrada en el HTML
+function updateList() {
     const lista = document.getElementById("listaNomes");
-    lista.innerHTML = "";  // Limpa a lista
+    lista.innerHTML = "";  // Limpia la lista
 
-    nomes.forEach(function(nome) {
+    names.forEach(function(name) {
         const item = document.createElement("li");
-        item.textContent = nome;
+        item.textContent = name;
         lista.appendChild(item);
     });
 }
 
-// Função para sortear um nome aleatoriamente
-function sortearNome() {
-    if (nomes.length > 0) {
-        const indiceAleatorio = Math.floor(Math.random() * nomes.length);
-        const nomeSorteado = nomes[indiceAleatorio];
-        document.getElementById("resultado").textContent = `O amigo secreto sorteado é: ${nomeSorteado}`;
+// Función para sortear un nombre aleatoriamente
+function drawName() {
+    if (names.length > 0) {
+        const randomIndex = Math.floor(Math.random() * names.length);
+        const drawnName = names[randomIndex];
+        document.getElementById("resultado").textContent = `El amigo secreto sorteado es: ${drawnName}`;
     } else {
-        alert("Adicione nomes para sortear!");
+        alert("¡Añade nombres para sortear!");
     }
 }
 
-// Associar funções aos botões após o DOM estar carregado
-document.getElementById("btnAdicionar").addEventListener("click", adicionarNome);
-document.getElementById("btnSortear").addEventListener("click", sortearNome);
+// Asociar funciones a los botones después de que el DOM esté cargado
+document.getElementById("btnAdicionar").addEventListener("click", addName);
+document.getElementById("btnSortear").addEventListener("click", drawName);

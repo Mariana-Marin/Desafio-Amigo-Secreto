@@ -8,15 +8,16 @@
 
 
 
-## Sobre o Desafio
-Este projeto é uma aplicação para sorteios de amigo secreto, desenvolvida como parte do curso de Programação - Turma G8, do programa Oracle Next Education (ONE) 2025.
+🎯 Sobre el Desafío
+Este proyecto es una aplicación para realizar sorteos de amigo secreto, desarrollada como parte del curso de Programación - Grupo G8 del programa Oracle Next Education (ONE) 2025.
 
-## Objetivo
-O principal objetivo deste desafio é desenvolver habilidades em lógica de programação. Para isso:
+🎓 Objetivo
+El objetivo principal de este desafío es desarrollar habilidades en lógica de programación. Para lograrlo, se pondrán en práctica los siguientes conceptos clave:
 
-- Serão aplicados conceitos-chave como:
-  - Funções
-  - Arrays
-  - Condicionais
-  - Variáveis
+🔧 Funciones
 
+🧩 Arreglos (Arrays)
+
+🔀 Condicionales
+
+🧠 Variables
